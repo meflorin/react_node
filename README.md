@@ -1,3 +1,9 @@
+- Node.js
+- React
+- Express
+- Mocha, Chai
+- Cypress
+
 ## Backend:
 Express
 - JSON storage
@@ -13,18 +19,15 @@ Endpoints:
 - Fully use the backend that you built
 - All tested
 
-## ES6:
-- Overwritte Array.sort
-- Tests
  -------------------------------------------------
  ## Backend:
+- cd server
 - npm install
 - npm start (http://localhost:9000)
 - npm test (change .env ENV=DEV -> ENV=TEST to use test json from test/data/)
 
 ## UI:
+- cd ui
 - npm install
 - npm start (http://localhost:3000)
-
-## ES6:
-- node index.js
+- node_modules/.bin/cypress open (on backend -> change .env ENV=DEV -> ENV=TEST to use test json from test/data/)
