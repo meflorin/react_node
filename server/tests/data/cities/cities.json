@@ -1,0 +1,26 @@
+{
+  "region_cities": [
+    {
+      "region": "Est",
+      "cities": [
+        "Bacau",
+        "Tulcea"
+      ]
+    },
+    {
+      "region": "West",
+      "cities": [
+        "Oradea",
+        "Arad",
+        "Cluj-Napoca",
+        "test_city818"
+      ]
+    },
+    {
+      "region": "North",
+      "cities": [
+        "Baia-Mare"
+      ]
+    }
+  ]
+}
